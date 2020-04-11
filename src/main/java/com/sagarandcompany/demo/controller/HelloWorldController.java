@@ -16,6 +16,6 @@ public class HelloWorldController {
     @RequestMapping(value = "/print", method = RequestMethod.GET)
     @ResponseBody
     public String printEmployee(@RequestParam(value = "name", required = false) String name) {
-        return "hello" + successMsg;
+        return "hello & hi" + successMsg;
     }
 }
